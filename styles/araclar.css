@@ -1,0 +1,227 @@
+body {
+    font-family: "Poppins", sans-serif !important;
+    background-color:  cornsilk;
+}
+/*Section1*/
+.menu{
+    /*background-color: rgb(215, 168, 122);*/
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-container{
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+.navbar a {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    color: cornsilk;
+}
+
+.navbar a img {
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+}
+.navbar-collapse ul li {
+    margin-right: 25px;
+}
+
+.navbar-collapse ul li a:hover {
+    animation-name: scaleAnimation;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    color:cornsilk;
+}
+
+.navbar-collapse ul li a {
+    animation-name: scaleAnimationBack;
+    animation-duration: 0.4s;
+}
+.navbar-toggler{
+    background-color: cornsilk !important;
+}
+a.active {
+    color: rgb(255, 249, 133) !important;
+}
+
+@keyframes scaleAnimation {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes scaleAnimationBack {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+.redbullMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redbull .redbullSol img{
+    width: 100%;
+}
+.redbull .redbullSag{
+    color:white;
+} 
+.redbull .redbullSag h2{
+    color:red;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.redbull .redbullSag p{
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+
+
+.mclaren{
+    margin-top: 100px;
+}
+.mclarenMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mclaren .mclarenSol img{
+    width: 100%;
+}
+.mclaren .mclarenSag{
+    color:white;
+} 
+.mclaren .mclarenSag h2{
+    color:rgb(255, 123, 0);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.mclaren .mclarenSag p{
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+
+
+.ferrari{
+    margin-top: 100px;
+}
+.ferrariMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ferrari .ferrariSol img{
+    width: 100%;
+}
+.ferrari .ferrariSag{
+    color:white;
+} 
+.ferrari .ferrariSag h2{
+    color:rgb(230, 0, 38);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.ferrari .ferrariSag p{
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+
+
+.mercedes{
+    margin-top: 100px;
+}
+.mercedesMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mercedes .mercedesSol img{
+    width: 100%;
+}
+.mercedes .mercedesSag{
+    color:white;
+} 
+.mercedes .mercedesSag h2{
+    color:rgb(12, 172, 204);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.mercedes .mercedesSag p{
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:992px){
+    .mclarenMain{
+        flex-direction: column-reverse;
+    }
+    .mclaren{
+        border-top: 3px solid red;
+        padding-top: 100px;
+    }
+    .ferrari{
+        border-top: 3px solid rgb(255, 123, 0);;
+        padding-top: 100px;
+    }
+    .mercedesMain{
+        flex-direction: column-reverse;
+    }
+    .mercedes{
+        border-top: 3px solid rgb(230, 0, 38);
+        padding-top: 100px;
+    }
+}
+@media screen and (max-width:511px){
+    .navbar{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .navbar button{
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width:296px){
+    .navbar a img {
+        height: 100px;
+        width: 100px;
+        border-radius: 20px;
+    }
+}
