@@ -1,15 +1,20 @@
 body {
     font-family: "Poppins", sans-serif !important;
-    background-color:  cornsilk;
+    background-color: black !important;
 }
+
 /*Section1*/
-.menu{
+.section1 {
+    padding-bottom: 50px;
+}
+
+.menu {
     /*background-color: rgb(215, 168, 122);*/
-    background-color: black;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.navbar-container{
+
+.navbar-container {
     padding-left: 100px !important;
     padding-right: 100px !important;
 }
@@ -25,6 +30,7 @@ body {
     width: 200px;
     border-radius: 20px;
 }
+
 .navbar-collapse ul li {
     margin-right: 25px;
 }
@@ -33,16 +39,18 @@ body {
     animation-name: scaleAnimation;
     animation-duration: 0.4s;
     animation-fill-mode: forwards;
-    color:cornsilk;
+    color: cornsilk;
 }
 
 .navbar-collapse ul li a {
     animation-name: scaleAnimationBack;
     animation-duration: 0.4s;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     background-color: cornsilk !important;
 }
+
 a.active {
     color: rgb(255, 249, 133) !important;
 }
@@ -66,25 +74,31 @@ a.active {
         transform: scale(1);
     }
 }
-.redbullMain{
+
+.redbullMain {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.redbull .redbullSol img{
+
+.redbull .redbullSol img {
     width: 100%;
+    border-radius: 10px;
 }
-.redbull .redbullSag{
-    color:white;
-} 
-.redbull .redbullSag h2{
-    color:red;
+
+.redbull .redbullSag {
+    color: white;
+}
+
+.redbull .redbullSag h2 {
+    color: red;
     text-align: center;
     margin-top: 15px;
     font-size: 35px;
     margin-bottom: 25px;
 }
-.redbull .redbullSag p{
+
+.redbull .redbullSag p {
     font-size: 20px;
     line-height: 1.7;
     text-align: center;
@@ -92,28 +106,34 @@ a.active {
 
 
 
-.mclaren{
+.mclaren {
     margin-top: 100px;
 }
-.mclarenMain{
+
+.mclarenMain {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.mclaren .mclarenSol img{
+
+.mclaren .mclarenSol img {
     width: 100%;
+    border-radius: 10px;
 }
-.mclaren .mclarenSag{
-    color:white;
-} 
-.mclaren .mclarenSag h2{
-    color:rgb(255, 123, 0);
+
+.mclaren .mclarenSag {
+    color: white;
+}
+
+.mclaren .mclarenSag h2 {
+    color: rgb(255, 123, 0);
     text-align: center;
     margin-top: 15px;
     font-size: 35px;
     margin-bottom: 25px;
 }
-.mclaren .mclarenSag p{
+
+.mclaren .mclarenSag p {
     font-size: 20px;
     line-height: 1.7;
     text-align: center;
@@ -121,28 +141,34 @@ a.active {
 
 
 
-.ferrari{
+.ferrari {
     margin-top: 100px;
 }
-.ferrariMain{
+
+.ferrariMain {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.ferrari .ferrariSol img{
+
+.ferrari .ferrariSol img {
     width: 100%;
+    border-radius: 10px;
 }
-.ferrari .ferrariSag{
-    color:white;
-} 
-.ferrari .ferrariSag h2{
-    color:rgb(230, 0, 38);
+
+.ferrari .ferrariSag {
+    color: white;
+}
+
+.ferrari .ferrariSag h2 {
+    color: rgb(230, 0, 38);
     text-align: center;
     margin-top: 15px;
     font-size: 35px;
     margin-bottom: 25px;
 }
-.ferrari .ferrariSag p{
+
+.ferrari .ferrariSag p {
     font-size: 20px;
     line-height: 1.7;
     text-align: center;
@@ -150,28 +176,104 @@ a.active {
 
 
 
-.mercedes{
+.mercedes {
     margin-top: 100px;
 }
-.mercedesMain{
+
+.mercedesMain {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.mercedes .mercedesSol img{
+
+.mercedes .mercedesSol img {
     width: 100%;
+    border-radius: 10px;
 }
-.mercedes .mercedesSag{
-    color:white;
-} 
-.mercedes .mercedesSag h2{
-    color:rgb(12, 172, 204);
+
+.mercedes .mercedesSag {
+    color: white;
+}
+
+.mercedes .mercedesSag h2 {
+    color: rgb(12, 172, 204);
     text-align: center;
     margin-top: 15px;
     font-size: 35px;
     margin-bottom: 25px;
 }
-.mercedes .mercedesSag p{
+
+.mercedes .mercedesSag p {
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+
+
+.astonMartin {
+    margin-top: 100px;
+}
+
+.astonMartinMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.astonMartin .astonMartinSol img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.astonMartin .astonMartinSag {
+    color: white;
+}
+
+.astonMartin .astonMartinSag h2 {
+    color: rgb(70, 165, 135);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.astonMartin .astonMartinSag p {
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+
+
+.racingBulls {
+    margin-top: 100px;
+}
+
+.racingBullsMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.racingBulls .racingBullsSol img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.racingBulls .racingBullsSag {
+    color: white;
+}
+
+.racingBulls .racingBullsSag h2 {
+    color: rgb(12, 28, 204);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.racingBulls .racingBullsSag p {
     font-size: 20px;
     line-height: 1.7;
     text-align: center;
@@ -180,45 +282,284 @@ a.active {
 
 
 
+.haas {
+    margin-top: 100px;
+}
+
+.haasMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.haas .haasSol img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.haas .haasSag {
+    color: white;
+}
+
+.haas .haasSag h2 {
+    color: rgb(255, 47, 0);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.haas .haasSag p {
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+
+
+.alpine {
+    margin-top: 100px;
+}
+
+.alpineMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alpine .alpineSol img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.alpine .alpineSag {
+    color: white;
+}
+
+.alpine .alpineSag h2 {
+    color: rgb(19, 155, 209);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.alpine .alpineSag p {
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+}
 
 
 
 
+.williams {
+    margin-top: 100px;
+}
+
+.williamsMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.williams .williamsSol img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.williams .williamsSag {
+    color: white;
+}
+
+.williams .williamsSag h2 {
+    color: rgb(0, 0, 255);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.williams .williamsSag p {
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+}
 
 
 
-@media screen and (max-width:992px){
-    .mclarenMain{
+.sauber {
+    margin-top: 100px;
+}
+
+.sauberMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sauber .sauberSol img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sauber .sauberSag {
+    color: white;
+}
+
+.sauber .sauberSag h2 {
+    color: rgb(27, 204, 98);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.sauber .sauberSag p {
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+/*SECTİON2*/
+.footer {
+    background-color: rgb(189, 80, 7);
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer i {
+    font-size: 50px;
+    color: black;
+}
+
+.footer .footerYazi {
+    color: black;
+    font-size: 25px;
+}
+
+/*MEDİA*/
+@media screen and (max-width:992px) {
+    .mclarenMain {
         flex-direction: column-reverse;
     }
-    .mclaren{
+
+    .mclaren {
         border-top: 3px solid red;
         padding-top: 100px;
     }
-    .ferrari{
-        border-top: 3px solid rgb(255, 123, 0);;
+
+    .ferrari {
+        border-top: 3px solid rgb(255, 123, 0);
         padding-top: 100px;
     }
-    .mercedesMain{
+
+    .mercedesMain {
         flex-direction: column-reverse;
     }
-    .mercedes{
+
+    .mercedes {
         border-top: 3px solid rgb(230, 0, 38);
         padding-top: 100px;
     }
+
+    .astonMartin {
+        border-top: 3px solid rgb(12, 172, 204);
+        padding-top: 100px;
+    }
+
+    .racingBullsMain {
+        flex-direction: column-reverse;
+    }
+
+    .racingBulls {
+        border-top: 3px solid rgb(70, 165, 135);
+        padding-top: 100px;
+    }
+
+    .haas {
+        border-top: 3px solid rgb(12, 28, 204);
+        padding-top: 100px;
+    }
+
+    .alpineMain {
+        flex-direction: column-reverse;
+    }
+
+    .alpine {
+        border-top: 3px solid rgb(255, 47, 0);
+        padding-top: 100px;
+    }
+
+    .williams {
+        border-top: 3px solid rgb(19, 155, 209);
+        padding-top: 100px;
+    }
+
+    .sauberMain {
+        flex-direction: column-reverse;
+    }
+
+    .sauber {
+        border-top: 3px solid rgb(0, 0, 255);
+        border-bottom: 3px solid rgb(27, 204, 98);
+        padding-top: 100px;
+    }
 }
-@media screen and (max-width:511px){
-    .navbar{
+@media screen and (max-width:670px) {
+    .footer{
+        flex-direction: column;
+    }
+    .footer .footerYazi{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:511px) {
+    .navbar {
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
     }
-    .navbar button{
+
+    .navbar button {
         margin-top: 10px;
     }
-    
+
+    .navbar a {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+
 }
-@media screen and (max-width:296px){
+@media screen and (max-width:415px){
+    .footer .footerYazi{
+        font-size: 15px;
+    }
+    .footer i{
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px !important;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+}
+@media screen and (max-width:296px) {
     .navbar a img {
         height: 100px;
         width: 100px;
