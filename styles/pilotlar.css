@@ -1,0 +1,221 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color:  cornsilk;
+}
+/*Section1*/
+.menu{
+    /*background-color: rgb(215, 168, 122);*/
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-weight: 500;
+    color: cornsilk;
+}
+
+.navbar a img {
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+}
+.navbar-collapse ul li {
+    margin-right: 25px;
+}
+
+.navbar-collapse ul li a:hover {
+    animation-name: scaleAnimation;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    color:cornsilk;
+}
+
+.navbar-collapse ul li a {
+    animation-name: scaleAnimationBack;
+    animation-duration: 0.4s;
+}
+.navbar-toggler{
+    background-color: cornsilk;
+}
+a.active {
+    color: rgb(255, 249, 133) !important;
+}
+
+@keyframes scaleAnimation {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes scaleAnimationBack {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.footer{
+    background-color: rgb(189, 80, 7);
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer i{
+    font-size: 50px;
+    color:black;
+}
+.footer .footerYazi{
+    color: black;
+    font-size: 25px;
+}
+
+
+
+
+
+.section2{
+    margin-top: 25px;
+}
+
+.section2 h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(94, 144, 169);
+    font-size: 60px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.card{
+    height: 1100px !important;
+}
+.mercedesCard{
+    height: 1210px !important;
+}
+.ferrariCard{
+    height: 1160px !important;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(180, 145, 101);
+}
+.card-text{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.pilots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 45px;
+}
+.redbull{
+    color:red;
+}
+.mclaren{
+    color: rgb(255, 123, 0);
+}
+.ferrari{
+    color: rgb(230, 0, 38);
+}
+.mercedes{
+    color: rgb(12, 172, 204);
+}
+.astonMartin{
+    color: rgb(70, 165, 135);
+}
+.mainPart{
+    margin-bottom: 25px;
+}
+@media screen and (max-width:1199px){
+    .card{
+        width: 75%;
+        height: auto !important;
+    }
+    .col-xl-5{
+        display: flex;
+        justify-content: center;
+    }  
+}
+@media screen and (max-width:670px) {
+    .footer{
+        flex-direction: column;
+    }
+    .footer .footerYazi{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:576px){
+    .card{
+        width: 100%;
+        height: auto !important;
+    }
+    .card-title{
+        font-size: 20px;
+        text-align: left;
+    }
+    .card-text{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.7;
+    }
+    .header{
+        font-size: 32px;
+    }
+    .section2 h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:511px){
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar button{
+        margin-top: 10px;
+    }
+    .navbar a{
+        text-align: center;
+    }
+}
+@media screen and (max-width:415px){
+    .footer .footerYazi{
+        font-size: 15px;
+    }
+    .footer i{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:296px){
+    .navbar a img {
+        height: 100px;
+        width: 100px;
+        border-radius: 20px;
+    }
+}
