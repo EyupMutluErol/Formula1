@@ -22,7 +22,7 @@ body {
 
 .navbar a img {
     height: 100px;
-    width: 200px;
+    width: 150px;
     border-radius: 20px;
 }
 .navbar-collapse ul li {
@@ -110,6 +110,16 @@ a.active {
 .ferrariCard{
     height: 1160px !important;
 }
+.racingBullsCard{
+
+    height: 1300px !important;
+}
+.alpineCard{
+    height: 900px !important;
+}
+.sauberCard{
+    height: 1200px !important;
+}
 .card-title{
     font-size: 25px;
     font-weight: 600;
@@ -146,6 +156,21 @@ a.active {
 }
 .astonMartin{
     color: rgb(70, 165, 135);
+}
+.racingBulls{
+    color: rgb(12, 28, 204);
+}
+.haas{
+    color: rgb(255, 47, 0);
+}
+.alpine{
+    color: rgb(19, 155, 209);
+}
+.williams{
+    color: rgb(0, 0, 255);
+}
+.sauber{
+    color: rgb(27, 204, 98);
 }
 .mainPart{
     margin-bottom: 25px;

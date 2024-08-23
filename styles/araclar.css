@@ -27,7 +27,7 @@ body {
 
 .navbar a img {
     height: 100px;
-    width: 200px;
+    width: 150px;
     border-radius: 20px;
 }
 
@@ -81,8 +81,14 @@ a.active {
     justify-content: center;
 }
 
+.redbull .redbullSol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .redbull .redbullSol img {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 
@@ -115,9 +121,13 @@ a.active {
     align-items: center;
     justify-content: center;
 }
-
+.mclaren .mclarenSol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .mclaren .mclarenSol img {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 
@@ -150,9 +160,13 @@ a.active {
     align-items: center;
     justify-content: center;
 }
-
+.ferrari .ferrariSol{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
 .ferrari .ferrariSol img {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 
@@ -185,9 +199,13 @@ a.active {
     align-items: center;
     justify-content: center;
 }
-
+.mercedes .mercedesSol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .mercedes .mercedesSol img {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 
@@ -220,9 +238,13 @@ a.active {
     align-items: center;
     justify-content: center;
 }
-
+.astonMartin .astonMartinSol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .astonMartin .astonMartinSol img {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 
@@ -255,9 +277,13 @@ a.active {
     align-items: center;
     justify-content: center;
 }
-
+.racingBulls .racingBullsSol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .racingBulls .racingBullsSol img {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 
@@ -291,9 +317,13 @@ a.active {
     align-items: center;
     justify-content: center;
 }
-
+.haas .haasSol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .haas .haasSol img {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 
@@ -326,9 +356,13 @@ a.active {
     align-items: center;
     justify-content: center;
 }
-
+.alpine .alpineSol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .alpine .alpineSol img {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 
@@ -362,9 +396,13 @@ a.active {
     align-items: center;
     justify-content: center;
 }
-
+.williams .williamsSol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .williams .williamsSol img {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 
@@ -397,9 +435,13 @@ a.active {
     align-items: center;
     justify-content: center;
 }
-
+.sauber .sauberSol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .sauber .sauberSol img {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 
