@@ -3,7 +3,6 @@ const sendButton = document.querySelector('.button');
 const result = document.querySelector('.result');
 const point = document.querySelector('.point');
 const questions = document.querySelectorAll('.question');
-const nextButton = document.querySelector('.next');
 
 
 const correctAnswers = ['D', 'D', 'D', 'D', 'D','D','D','D','D','D'];
@@ -47,8 +46,6 @@ form.addEventListener('submit', e => {
             clearInterval(write);
             if(score==100){
                 sendButton.disabled = true;
-                nextButton.style.display='inline';
-                
             }
         }
     }, 30);

@@ -1,17 +1,12 @@
-*{
-    box-sizing: border-box;
-}
-
-body{
+body {
     font-family: "Poppins", sans-serif;
-    background-color: cornsilk !important;
+    background-color:  cornsilk;
 }
 /*Section1*/
 .menu{
     /*background-color: rgb(215, 168, 122);*/
     background-color: black;
     padding-top: 10px;
-    padding-bottom: 10px;
 }
 .navbar-container{
     padding-left: 100px;
@@ -71,6 +66,52 @@ a.active {
     }
 }
 
+.row{
+    margin-bottom: 50px;
+}
+
+.header{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: 500;
+    color: rgb(150, 146, 146);
+    color:rgb(94, 144, 169);
+}
+
+.card{
+    margin:0 10px;
+}
+
+.country{
+    margin: 5px !important;
+}
+.card-title{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: cadetblue;
+    margin-bottom: 25px;
+}
+
+.card-text{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.fa-arrow-right{
+    width: 25px;
+}
+
+.pole{
+    color:blueviolet;
+}
+.winner{
+    color: rgb(28, 225, 28);
+}
 .footer{
     background-color: rgb(189, 80, 7);
     margin-top: 30px;
@@ -88,7 +129,18 @@ a.active {
     color: black;
     font-size: 25px;
 }
-
+/*MEDİA SORGULARI*/
+@media screen and (max-width:1199px) {
+    .pistler{
+        width: 85% !important;
+    }
+    .card{
+        margin:10px;
+    }
+    .row{
+        margin-bottom: 0;
+    }
+}
 @media screen and (max-width:670px) {
     .footer{
         flex-direction: column;
@@ -97,6 +149,9 @@ a.active {
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 18px;
+    }
+    .pistler{
+        width: 100% !important;
     }
 }
 @media screen and (max-width:511px){
@@ -110,6 +165,13 @@ a.active {
     }
     .navbar a{
         text-align: center;
+    }
+    .card-title{
+        font-size: 20px;
+    }
+    
+    .card-text{
+        font-size: 18px;
     }
 }
 @media screen and (max-width:415px){
@@ -125,104 +187,5 @@ a.active {
         height: 100px;
         width: 100px;
         border-radius: 20px;
-    }
-}
-
-
-
-
-.header{
-    text-align: center;
-}
-
-.header h1{
-    font-size: 50px;
-    margin: 20px 0;
-    color:rgb(94, 144, 169);
-}
-
-.header h3{
-    font-size: 30px;
-    margin: 30px 0;
-}
-
-form{
-    margin-top: 50px;
-}
-
-.form-control{
-    width: 50% !important;
-    margin: 20px auto;
-}
-
-label{
-    font-size: 20px;
-    font-weight: 500;
-}
-
-input[type=radio]{
-    margin: 15px 5px 15px 20px;
-}
-
-.sendButton{
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.button{
-    background: white;
-    border-radius: 10px;
-    padding:20px 20px;
-    border:none;
-    outline: none;
-    font-size: 22px;
-    font-weight: 500;
-    padding: 10px;
-}
-.button:hover{
-    background-color: blanchedalmond;
-    transition: 0.5s;
-}
-
-
-
-.option{
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.result{
-    display: none;
-}
-
-.redBorder{
-    border:3px solid red !important;
-}
-
-.greenBorder{
-    border:3px solid rgb(14, 152, 14) !important;
-}
-
-.yellowBorder{
-    border:3px solid rgb(206, 216, 9) !important;
-}
-
-.next{
-    text-decoration: none;
-    color:white;
-    font-size: 22px;
-    font-weight: 500;
-    padding: 10px;
-    margin-top: 25px;
-    border:none;
-    outline: none;
-    display: none;
-}
-
-@media  screen and (max-width:485px) {
-    .form-control{
-        margin: 20px auto;
-        width: 90% !important;
     }
 }
