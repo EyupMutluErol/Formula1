@@ -35,3 +35,9 @@ Bu adımları izleyerek sitenin tüm özelliklerini yerel ortamınızda görünt
 
 ---
 
+## İletişim 
+
+* **Ad Soyad:** Eyüp Mutlu Erol
+* **GitHub:** [https://github.com/EyupMutluErol]
+* **E-posta:** [eyupmutluerol@gmail.com]
+
